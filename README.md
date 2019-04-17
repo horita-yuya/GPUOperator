@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/GPUOperator.svg?style=flat)](https://cocoapods.org/pods/GPUOperator)
 [![Platform](https://img.shields.io/cocoapods/p/GPUOperator.svg?style=flat)](https://cocoapods.org/pods/GPUOperator)
 
-**Metal** is used for rendering graphics and performing parallel computations like image processing. But, 
+**Metal** is used for rendering graphics and performing parallel computations like image processing. But,
 
 **there are many boiler plates to use Metal normally.**
 - Creating Metal device
@@ -17,7 +17,7 @@ This library simplifies these steps.
 
 ## Examples
 
-### Shader: Thundershower 
+### Shader: Thundershower
 #### [Implementation](https://github.com/horita-yuya/GPUOperator/blob/master/Example/Example/Thundershower/ThundershowerViewController.swift)
 
 ![thundershower](Resources/thundershower.gif)
@@ -81,7 +81,7 @@ renderingView.gpuOperator = gpuOperator
 renderingView.run()
 ```
 
-The `run()` function just starts displaylink process inside RenderingView. 
+The `run()` function just starts displaylink process inside RenderingView.
 If you want to use MTLView (Metal Standard class), following example would be helpful.
 ```swift
 import MetalKit
@@ -101,6 +101,16 @@ extension ViewController: MTKViewDelegate {
 - Swift 5.0
 - iOS 12.0+
 - Any simulators are unsupported.
+
+## Installation
+
+### Cocoapods
+```ruby
+pod 'GPUOperator'
+```
+
+### Carthage
+*Coming soon*.
 
 ## License
 
