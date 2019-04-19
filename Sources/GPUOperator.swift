@@ -151,7 +151,7 @@ open class GPUOperator {
         return bufferTexture
     }
     
-    /// Generates a texture with `uiProcessor.pixelFormat`
+    /// Generates a texture with `GraphicsEncoder.pixelFormat`
     open func makeEmptyTexture(width: Int, height: Int) -> MTLTexture? {
         let textureDescriptor = MTLTextureDescriptor.texture2DDescriptor(
             pixelFormat: graphicsEncoder.pixelFormat,

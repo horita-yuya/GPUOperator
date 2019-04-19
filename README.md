@@ -20,17 +20,20 @@ This library simplifies these steps.
 ### Shader: Thundershower
 #### [Implementation](https://github.com/horita-yuya/GPUOperator/blob/master/Example/Example/Thundershower/ThundershowerViewController.swift)
 
-![thundershower](Resources/thundershower.gif)
+|Thundershower|Fourier Series|
+|---|---|
+|![thundershower](Resources/thundershower.gif)|![Fourier](Resources/fourier.gif)|
+|[Reference](http://glslsandbox.com)|[Concept](http://mathworld.wolfram.com/FourierSeries.html)
 
 - Reference: [http://glslsandbox.com/](http://glslsandbox.com/)
 
 ### Realtime Video Processing: Edge Detection
 #### [Implementation](https://github.com/horita-yuya/GPUOperator/blob/master/Example/Example/Camera/CameraViewController.swift)
 
-![camera](Resources/camera.gif)
-
-- Using Prewitt filter
-- Same as [this](https://github.com/horita-yuya/SwiftImageProcessor/blob/master/SwiftImageProcessor/Shader/Edge/prewitt.metal).
+| Edge Detection | Color Conversion |
+|---|---|
+|![camera](Resources/camera.gif)|![monochrome](Resources/moai.gif)
+|[Prewitt](https://github.com/horita-yuya/GPUOperator/blob/master/Example/Example/Camera/Prewitt.metal)|[Monochrome](https://github.com/horita-yuya/GPUOperator/blob/master/Example/Example/Camera/Monochrome.metal)
 
 ### Image Processing: Two Images Difference
 #### [Implementation](https://github.com/horita-yuya/GPUOperator/blob/master/Example/Example/ImageDifference/ImageDifferenceViewController.swift)

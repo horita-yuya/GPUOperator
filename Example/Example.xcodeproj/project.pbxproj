@@ -26,6 +26,9 @@
 		8CAB28E422672E0000FD8A05 /* ImageDifferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB28E322672E0000FD8A05 /* ImageDifferenceViewController.swift */; };
 		8CAB28E622672E0C00FD8A05 /* ImageDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB28E522672E0C00FD8A05 /* ImageDifference.swift */; };
 		8CAB28E822672E1800FD8A05 /* ImageDifference.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB28E722672E1800FD8A05 /* ImageDifference.metal */; };
+		FA6D79D8226A0ADD00E2B02F /* FourierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D79D7226A0ADD00E2B02F /* FourierViewController.swift */; };
+		FA6D79DA226A0AE900E2B02F /* Fourier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D79D9226A0AE900E2B02F /* Fourier.swift */; };
+		FA6D79DC226A0AF100E2B02F /* Fourier.metal in Sources */ = {isa = PBXBuildFile; fileRef = FA6D79DB226A0AF100E2B02F /* Fourier.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		8CAB28E322672E0000FD8A05 /* ImageDifferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDifferenceViewController.swift; sourceTree = "<group>"; };
 		8CAB28E522672E0C00FD8A05 /* ImageDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDifference.swift; sourceTree = "<group>"; };
 		8CAB28E722672E1800FD8A05 /* ImageDifference.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ImageDifference.metal; sourceTree = "<group>"; };
+		FA6D79D7226A0ADD00E2B02F /* FourierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierViewController.swift; sourceTree = "<group>"; };
+		FA6D79D9226A0AE900E2B02F /* Fourier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fourier.swift; sourceTree = "<group>"; };
+		FA6D79DB226A0AF100E2B02F /* Fourier.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Fourier.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,7 @@
 		8C5801CD22602E340074FF8A /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				FA6D79D6226A0AC900E2B02F /* Fourier */,
 				8CAB28E222672DE700FD8A05 /* ImageDifference */,
 				8C1D74EB2264D9FD00C0A834 /* Thundershower */,
 				8C580202226085A70074FF8A /* Camera */,
@@ -166,6 +173,16 @@
 				8CAB28E722672E1800FD8A05 /* ImageDifference.metal */,
 			);
 			path = ImageDifference;
+			sourceTree = "<group>";
+		};
+		FA6D79D6226A0AC900E2B02F /* Fourier */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D79D7226A0ADD00E2B02F /* FourierViewController.swift */,
+				FA6D79D9226A0AE900E2B02F /* Fourier.swift */,
+				FA6D79DB226A0AF100E2B02F /* Fourier.metal */,
+			);
+			path = Fourier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C580206226086730074FF8A /* CameraViewController.swift in Sources */,
+				FA6D79DC226A0AF100E2B02F /* Fourier.metal in Sources */,
 				8CAB28E622672E0C00FD8A05 /* ImageDifference.swift in Sources */,
 				8CAB28E822672E1800FD8A05 /* ImageDifference.metal in Sources */,
 				8C43251122662F8E0005F28E /* Prewitt.metal in Sources */,
+				FA6D79DA226A0AE900E2B02F /* Fourier.swift in Sources */,
 				8C1D74EF2264DA2100C0A834 /* Monochrome.swift in Sources */,
 				8C5801D122602E340074FF8A /* ViewController.swift in Sources */,
 				8C1D74F12264DC3300C0A834 /* ThundershowerViewController.swift in Sources */,
@@ -269,6 +288,7 @@
 				8C1D74F42264DC4900C0A834 /* Thundershower.metal in Sources */,
 				8C1D74F52264DC4900C0A834 /* Thundershower.swift in Sources */,
 				8C580204226085BA0074FF8A /* Camera.swift in Sources */,
+				FA6D79D8226A0ADD00E2B02F /* FourierViewController.swift in Sources */,
 				8C43250F22662F840005F28E /* Prewitt.swift in Sources */,
 				8CAB28E422672E0000FD8A05 /* ImageDifferenceViewController.swift in Sources */,
 			);
