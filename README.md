@@ -17,7 +17,7 @@ This library simplifies these steps.
 
 ## Examples
 
-### Shader: Thundershower
+### Graphics Shader
 #### [Implementation](https://github.com/horita-yuya/GPUOperator/blob/master/Example/Example/Thundershower/ThundershowerViewController.swift)
 
 |Thundershower|Fourier Series|
@@ -27,7 +27,7 @@ This library simplifies these steps.
 
 - Reference: [http://glslsandbox.com/](http://glslsandbox.com/)
 
-### Realtime Video Processing: Edge Detection
+### Realtime Video Processing
 #### [Implementation](https://github.com/horita-yuya/GPUOperator/blob/master/Example/Example/Camera/CameraViewController.swift)
 
 | Edge Detection | Color Conversion |
