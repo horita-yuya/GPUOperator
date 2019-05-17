@@ -2,6 +2,7 @@
 
 [![Swift](https://img.shields.io/badge/language-Swift5-orange.svg)](https://developer.apple.com/swift)
 [![Version](https://img.shields.io/cocoapods/v/GPUOperator.svg?style=flat)](https://cocoapods.org/pods/GPUOperator)
+[![Carthage](https://img.shields.io/badge/Carthage-compatible-yellow.svg)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/GPUOperator.svg?style=flat)](https://cocoapods.org/pods/GPUOperator)
 [![Platform](https://img.shields.io/cocoapods/p/GPUOperator.svg?style=flat)](https://cocoapods.org/pods/GPUOperator)
 
@@ -113,7 +114,9 @@ pod 'GPUOperator'
 ```
 
 ### Carthage
-*Coming soon*.
+```ruby
+github "horita-yuya/GPUOperator"
+```
 
 ## License
 
