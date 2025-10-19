@@ -18,6 +18,8 @@ This library simplifies these steps.
 
 ## Examples
 
+See also [SwiftImageProcessor](https://github.com/horita-yuya/SwiftImageProcessor).
+
 ### Graphics Shader
 #### [Implementation](https://github.com/horita-yuya/GPUOperator/blob/master/Example/Example/Thundershower/ThundershowerViewController.swift)
 
